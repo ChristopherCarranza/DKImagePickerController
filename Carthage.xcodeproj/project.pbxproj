@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B373D722D89D61B0064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D712D89D61B0064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D762D8A03200064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */; };
 		9C2C2A37215C793700A1005A /* DKCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2C2A36215C793700A1005A /* DKCamera.framework */; };
 		9C2C2BEE215C81C200A1005A /* DKPhotoGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2C2BED215C81C200A1005A /* DKPhotoGallery.framework */; };
 		9C565E21216B2F4A00A16B22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C565E20216B2F4900A16B22 /* Images.xcassets */; };
@@ -88,7 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B373D712D89D61B0064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/DKImagePickerController/Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		9C2C2A36215C793700A1005A /* DKCamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKCamera.framework; path = Carthage/Build/iOS/DKCamera.framework; sourceTree = "<group>"; };
 		9C2C2BED215C81C200A1005A /* DKPhotoGallery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKPhotoGallery.framework; path = Carthage/Build/iOS/DKPhotoGallery.framework; sourceTree = "<group>"; };
 		9C565E20216B2F4900A16B22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Sources/DKImagePickerController/Resource/Resources/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -181,7 +181,6 @@
 		9C90C074215F69A400314C91 /* DKImagePickerControllerBundle */ = {
 			isa = PBXGroup;
 			children = (
-				3B373D712D89D61B0064809B /* PrivacyInfo.xcprivacy */,
 				9C565E20216B2F4900A16B22 /* Images.xcassets */,
 				9C90C0DF215F895200314C91 /* ar.lproj */,
 				9C90C0E9215F895300314C91 /* Base.lproj */,
@@ -283,6 +282,7 @@
 		9CEFAFB0215A0DAB00FCF894 /* DKImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
+				3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */,
 				9CEFAFB1215A0DAB00FCF894 /* DKImageExtensionController.swift */,
 				9CEFAFB2215A0DAB00FCF894 /* DKImageAssetExporter.swift */,
 				9CEFAFB3215A0DAB00FCF894 /* DKImagePickerController.swift */,
@@ -440,7 +440,6 @@
 				9C565E21216B2F4A00A16B22 /* Images.xcassets in Resources */,
 				9C90C0FD215F895300314C91 /* en.lproj in Resources */,
 				9C90C0F6215F895300314C91 /* zh-Hant.lproj in Resources */,
-				3B373D722D89D61B0064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C90C0F9215F895300314C91 /* pt_BR.lproj in Resources */,
 				9C90C0F3215F895300314C91 /* nb-NO.lproj in Resources */,
 				9C90C0FC215F895300314C91 /* ja.lproj in Resources */,
@@ -457,6 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B373D762D8A03200064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C90C079215F6B3300314C91 /* DKImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
