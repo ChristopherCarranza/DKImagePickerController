@@ -1,6 +1,6 @@
 github "Flipboard/FLAnimatedImage" "1.0.14"
 github "SDWebImage/SDWebImage" "5.8.0"
 github "SDWebImage/SDWebImageFLPlugin" "0.4.0"
-github "ChristopherCarranza/DKPhotoGallery" "86144c9973cee637ea883f51cde11a35b387db33"
+github "ChristopherCarranza/DKPhotoGallery" "599082b90424fe49dd8f32baca5365a784c41eea"
 github "TimOliver/TOCropViewController" "2.5.2"
 github "zhangao0086/DKCamera" "1.6.7"

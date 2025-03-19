@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B373D762D8A03200064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D7A2D8B272B0064809B /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */; };
 		9C2C2A37215C793700A1005A /* DKCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2C2A36215C793700A1005A /* DKCamera.framework */; };
 		9C2C2BEE215C81C200A1005A /* DKPhotoGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2C2BED215C81C200A1005A /* DKPhotoGallery.framework */; };
 		9C565E21216B2F4A00A16B22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C565E20216B2F4900A16B22 /* Images.xcassets */; };
@@ -86,6 +86,19 @@
 			remoteInfo = DKImagePickerControllerBundle;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B373D792D8B27240064809B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				3B373D7A2D8B272B0064809B /* PrivacyInfo.xcprivacy in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B373D752D8A03200064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
@@ -356,6 +369,7 @@
 				9CAD366C2003661E003E21C6 /* Frameworks */,
 				9CAD366D2003661E003E21C6 /* Headers */,
 				9CAD366E2003661E003E21C6 /* Resources */,
+				3B373D792D8B27240064809B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -456,7 +470,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B373D762D8A03200064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C90C079215F6B3300314C91 /* DKImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
